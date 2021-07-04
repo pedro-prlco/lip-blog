@@ -1,0 +1,102 @@
+body
+{
+    padding: 5px;
+}
+
+section
+{
+    width: 70%;
+}
+
+.blog_h1
+{
+    font-size: 24;
+    font-family: Roboto;
+}
+
+.blog_h2
+{
+    font-size: 24;
+    font-family: Roboto;
+    color: rgb(97, 97, 97);
+}
+
+.blog_p
+{
+    font-family: Roboto;
+}
+
+.blog_display_center
+{
+    display: block;
+    margin: 0px auto;
+}
+
+.justify
+{
+    text-align: justify;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.blog_img
+{
+    width: 50vw;
+    min-width: 450px;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.blog_ul_disciplinas
+{
+    list-style: none;
+}
+
+.blog_ul_disciplinas a
+{
+    font-style: none;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+
+.blog_ul_disciplinas li
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Roboto;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    background-color: white;
+    transition: all .2s;
+}
+
+.blog_ul_disciplinas li:hover
+{
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+iframe
+{
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.blog_cover
+{
+    height: 300px;
+    background-image: url("https://miro.medium.com/max/1000/1*c34daw_rg89UAh4uFCZ96w.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -15px;
+    width: 100%;
+    background-color: red;
+}
